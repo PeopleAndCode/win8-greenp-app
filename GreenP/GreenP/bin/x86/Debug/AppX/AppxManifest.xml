@@ -30,6 +30,7 @@
   </Applications>
   <Capabilities>
     <Capability Name="internetClient" />
+    <DeviceCapability Name="location" />
   </Capabilities>
   <Dependencies>
     <PackageDependency Name="Microsoft.VCLibs.110.00.Debug" MinVersion="11.0.50727.1" />

@@ -7,16 +7,16 @@
     <PackageArchitecture>x86</PackageArchitecture>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\pandc\code\greenp_map\GreenP\GreenP\bin\x86\Debug\AppxManifest.xml">
+    <AppXManifest Include="c:\pandc\code\greenp_map\GreenP\GreenP\bin\x86\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\pandc\code\greenp_map\GreenP\GreenP\bin\x86\Debug\GreenP.exe">
+    <AppxPackagedFile Include="c:\pandc\code\greenp_map\GreenP\GreenP\bin\x86\Debug\GreenP.exe">
       <PackagePath>GreenP.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\pandc\code\greenp_map\GreenP\GreenP\bin\x86\Debug\GreenP.pdb">
+    <AppxPackagedFile Include="c:\pandc\code\greenp_map\GreenP\GreenP\bin\x86\Debug\GreenP.pdb">
       <PackagePath>GreenP.pdb</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dan\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\References\commonconfiguration\neutral\Bing.Maps.winmd">
@@ -25,7 +25,7 @@
     <AppxPackagedFile Include="C:\Users\Dan\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\References\commonconfiguration\neutral\Bing.Maps.xml">
       <PackagePath>Bing.Maps.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dan\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\Redist\debug\x86\Bing.Maps.dll">
+    <AppxPackagedFile Include="C:\Users\Dan\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\Redist\debug\x64\Bing.Maps.dll">
       <PackagePath>Bing.Maps.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dan\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\Redist\CommonConfiguration\neutral\Bing.Maps\Blocked_Regions_01.png">
@@ -253,32 +253,32 @@
     <AppxPackagedFile Include="C:\Users\Dan\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\Redist\CommonConfiguration\neutral\Bing.Maps\UnifiedStyle.MapStyle">
       <PackagePath>Bing.Maps\UnifiedStyle.MapStyle</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\pandc\code\greenp_map\GreenP\GreenP\Assets\Logo.png">
+    <AppxPackagedFile Include="c:\pandc\code\greenp_map\GreenP\GreenP\Assets\Logo.png">
       <PackagePath>Assets\Logo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\pandc\code\greenp_map\GreenP\GreenP\Assets\SmallLogo.png">
+    <AppxPackagedFile Include="c:\pandc\code\greenp_map\GreenP\GreenP\Assets\SmallLogo.png">
       <PackagePath>Assets\SmallLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\pandc\code\greenp_map\GreenP\GreenP\Assets\SplashScreen.png">
+    <AppxPackagedFile Include="c:\pandc\code\greenp_map\GreenP\GreenP\Assets\SplashScreen.png">
       <PackagePath>Assets\SplashScreen.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\pandc\code\greenp_map\GreenP\GreenP\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="c:\pandc\code\greenp_map\GreenP\GreenP\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\pandc\code\greenp_map\GreenP\GreenP\bin\x86\Debug\App.xaml">
+    <AppxPackagedFile Include="c:\pandc\code\greenp_map\GreenP\GreenP\bin\x86\Debug\App.xaml">
       <PackagePath>App.xaml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\pandc\code\greenp_map\GreenP\GreenP\bin\x86\Debug\Common\StandardStyles.xaml">
+    <AppxPackagedFile Include="c:\pandc\code\greenp_map\GreenP\GreenP\bin\x86\Debug\Common\StandardStyles.xaml">
       <PackagePath>Common\StandardStyles.xaml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\pandc\code\greenp_map\GreenP\GreenP\bin\x86\Debug\MainPage.xaml">
+    <AppxPackagedFile Include="c:\pandc\code\greenp_map\GreenP\GreenP\bin\x86\Debug\MainPage.xaml">
       <PackagePath>MainPage.xaml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\pandc\code\greenp_map\GreenP\GreenP\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="c:\pandc\code\greenp_map\GreenP\GreenP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

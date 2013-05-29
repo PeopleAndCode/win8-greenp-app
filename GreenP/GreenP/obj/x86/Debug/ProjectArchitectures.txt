@@ -1,1 +1,1 @@
-C:\pandc\code\greenp_map\GreenP\GreenP\GreenP.csproj;x86
+c:\pandc\code\greenp_map\GreenP\GreenP\GreenP.csproj;x86

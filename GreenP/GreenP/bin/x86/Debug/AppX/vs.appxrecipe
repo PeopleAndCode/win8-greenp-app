@@ -5,7 +5,7 @@
     <WindowsUser>Dan</WindowsUser>
     <SolutionConfiguration>Debug|x86</SolutionConfiguration>
     <PackageArchitecture>x86</PackageArchitecture>
-    <RegisteredManifestChecksum>EC037D66C3459D133A6AF065C5973CFC64F145542369C908C4E52F95357CE911</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>0CBE3978E7383C29D2FF553DF2238463F203945C810578460709F7FB622C7B83</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>5e306a81-f074-4d70-8d92-bf69e7331a7e_1.0.0.0_x86__m2mhzkw71ghyc</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>5e306a81-f074-4d70-8d92-bf69e7331a7e_m2mhzkw71ghyc!App</RegisteredUserModeAppID>
     <RegisteredPackageID>5e306a81-f074-4d70-8d92-bf69e7331a7e</RegisteredPackageID>
@@ -13,20 +13,20 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\pandc\code\greenp_map\GreenP\GreenP\bin\x86\Debug\AppxManifest.xml">
+    <AppXManifest Include="c:\pandc\code\greenp_map\GreenP\GreenP\bin\x86\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-05-27T20:51:52.971</Modified>
+      <Modified>2013-05-29T19:35:39.414</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\pandc\code\greenp_map\GreenP\GreenP\bin\x86\Debug\GreenP.exe">
+    <AppxPackagedFile Include="c:\pandc\code\greenp_map\GreenP\GreenP\bin\x86\Debug\GreenP.exe">
       <PackagePath>GreenP.exe</PackagePath>
-      <Modified>2013-05-27T22:37:32.749</Modified>
+      <Modified>2013-05-29T20:29:03.012</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\pandc\code\greenp_map\GreenP\GreenP\bin\x86\Debug\GreenP.pdb">
+    <AppxPackagedFile Include="c:\pandc\code\greenp_map\GreenP\GreenP\bin\x86\Debug\GreenP.pdb">
       <PackagePath>GreenP.pdb</PackagePath>
-      <Modified>2013-05-27T22:37:32.743</Modified>
+      <Modified>2013-05-29T20:29:03.005</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dan\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\References\commonconfiguration\neutral\Bing.Maps.winmd">
       <PackagePath>Bing.Maps.winmd</PackagePath>
@@ -36,9 +36,9 @@
       <PackagePath>Bing.Maps.xml</PackagePath>
       <Modified>2013-05-27T18:28:44.683</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dan\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\Redist\debug\x86\Bing.Maps.dll">
+    <AppxPackagedFile Include="C:\Users\Dan\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\Redist\debug\x64\Bing.Maps.dll">
       <PackagePath>Bing.Maps.dll</PackagePath>
-      <Modified>2013-05-27T18:28:44.568</Modified>
+      <Modified>2013-05-27T18:28:44.518</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dan\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\Redist\CommonConfiguration\neutral\Bing.Maps\Blocked_Regions_01.png">
       <PackagePath>Bing.Maps\Blocked_Regions_01.png</PackagePath>
@@ -340,41 +340,41 @@
       <PackagePath>Bing.Maps\UnifiedStyle.MapStyle</PackagePath>
       <Modified>2013-05-27T18:28:44.401</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\pandc\code\greenp_map\GreenP\GreenP\Assets\Logo.png">
+    <AppxPackagedFile Include="c:\pandc\code\greenp_map\GreenP\GreenP\Assets\Logo.png">
       <PackagePath>Assets\Logo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2012-03-16T00:42:52.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\pandc\code\greenp_map\GreenP\GreenP\Assets\SmallLogo.png">
+    <AppxPackagedFile Include="c:\pandc\code\greenp_map\GreenP\GreenP\Assets\SmallLogo.png">
       <PackagePath>Assets\SmallLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2012-03-16T00:42:52.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\pandc\code\greenp_map\GreenP\GreenP\Assets\SplashScreen.png">
+    <AppxPackagedFile Include="c:\pandc\code\greenp_map\GreenP\GreenP\Assets\SplashScreen.png">
       <PackagePath>Assets\SplashScreen.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2012-03-16T00:42:52.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\pandc\code\greenp_map\GreenP\GreenP\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="c:\pandc\code\greenp_map\GreenP\GreenP\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2012-03-16T00:42:52.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\pandc\code\greenp_map\GreenP\GreenP\bin\x86\Debug\App.xaml">
+    <AppxPackagedFile Include="c:\pandc\code\greenp_map\GreenP\GreenP\bin\x86\Debug\App.xaml">
       <PackagePath>App.xaml</PackagePath>
       <Modified>2013-05-27T20:40:59.015</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\pandc\code\greenp_map\GreenP\GreenP\bin\x86\Debug\Common\StandardStyles.xaml">
+    <AppxPackagedFile Include="c:\pandc\code\greenp_map\GreenP\GreenP\bin\x86\Debug\Common\StandardStyles.xaml">
       <PackagePath>Common\StandardStyles.xaml</PackagePath>
       <Modified>2012-06-26T20:19:20.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\pandc\code\greenp_map\GreenP\GreenP\bin\x86\Debug\MainPage.xaml">
+    <AppxPackagedFile Include="c:\pandc\code\greenp_map\GreenP\GreenP\bin\x86\Debug\MainPage.xaml">
       <PackagePath>MainPage.xaml</PackagePath>
-      <Modified>2013-05-27T22:37:28.807</Modified>
+      <Modified>2013-05-29T19:21:15.290</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\pandc\code\greenp_map\GreenP\GreenP\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="c:\pandc\code\greenp_map\GreenP\GreenP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2013-05-27T20:51:52.577</Modified>
+      <Modified>2013-05-29T19:35:38.919</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
