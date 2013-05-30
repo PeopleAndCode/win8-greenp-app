@@ -8,18 +8,40 @@
     mc:Ignorable="d"
     xmlns:m="using:Bing.Maps">
 
-    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}" Margin="1,1,-1,-1">
+    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="1015*"/>
-            <ColumnDefinition Width="351*"/>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="360"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="77*"/>
-            <RowDefinition Height="115*"/>
+            <RowDefinition Height="173*"/>
+            <RowDefinition Height="595*"/>
         </Grid.RowDefinitions>
         <m:Map Credentials="At6D8fafUOiwVjv5zIVAbfSQWZpnDVikkcMfZvQFqD3m9zuWmrjKOYnAXPMRGJsz" x:Name="myMap" RenderTransformOrigin="0.224,0.311" Grid.RowSpan="2">
         </m:Map>
-        <ListBox Grid.Row="1" Grid.Column="1"/>
-        <RichTextBlock Grid.Column="1"/>
+        <FlipView Grid.Column="1" RenderTransformOrigin="0.481,0.49">
+            <Grid Background="White">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="52"/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <TextBlock x:Name="infoBlock" FontSize="15" TextWrapping="Wrap" Foreground="Black" Text="Select a carpark to see info." Grid.Row="1" Margin="10"/>
+                <TextBlock Margin="10" TextWrapping="Wrap" Text="Parking Space Info" FontSize="25" Foreground="Black"/>
+            </Grid>
+            <ScrollViewer>
+            <Grid Background="White">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="26*"/>
+                    <RowDefinition Height="125*"/>
+                </Grid.RowDefinitions>
+
+                    <TextBlock x:Name="rateBlock" FontSize="15" TextWrapping="Wrap" Foreground="Black" Text="Select a carpark to see info." Grid.Row="1" Margin="10"/>
+                
+                <TextBlock Margin="10" TextWrapping="Wrap" Text="Rate Details" FontSize="25" Foreground="Black"/>
+            </Grid>
+
+                </ScrollViewer>
+        </FlipView>
+        <ListBox Grid.Column="1" Grid.Row="1" x:Name="listBox" />
     </Grid>
 </Page>

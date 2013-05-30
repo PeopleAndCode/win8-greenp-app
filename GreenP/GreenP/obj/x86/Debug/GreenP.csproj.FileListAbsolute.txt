@@ -24,7 +24,3 @@ c:\pandc\code\greenp_map\GreenP\GreenP\obj\x86\Debug\resources.resfiles
 c:\pandc\code\greenp_map\GreenP\GreenP\obj\x86\Debug\pri.resfiles
 c:\pandc\code\greenp_map\GreenP\GreenP\obj\x86\Debug\LanguageQualifiers.txt
 c:\pandc\code\greenp_map\GreenP\GreenP\obj\x86\Debug\ProjectArchitectures.txt
-c:\pandc\code\greenp_map\GreenP\GreenP\obj\x86\Debug\priconfig.xml.intermediate
-c:\pandc\code\greenp_map\GreenP\GreenP\obj\x86\Debug\layout.resfiles.intermediate
-c:\pandc\code\greenp_map\GreenP\GreenP\obj\x86\Debug\resources.resfiles.intermediate
-c:\pandc\code\greenp_map\GreenP\GreenP\obj\x86\Debug\pri.resfiles.intermediate

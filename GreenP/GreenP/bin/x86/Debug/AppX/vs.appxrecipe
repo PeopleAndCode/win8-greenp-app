@@ -16,17 +16,17 @@
     <AppXManifest Include="c:\pandc\code\greenp_map\GreenP\GreenP\bin\x86\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-05-29T19:35:39.414</Modified>
+      <Modified>2013-05-30T21:37:29.430</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="c:\pandc\code\greenp_map\GreenP\GreenP\bin\x86\Debug\GreenP.exe">
       <PackagePath>GreenP.exe</PackagePath>
-      <Modified>2013-05-29T20:29:03.012</Modified>
+      <Modified>2013-05-30T22:08:18.620</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="c:\pandc\code\greenp_map\GreenP\GreenP\bin\x86\Debug\GreenP.pdb">
       <PackagePath>GreenP.pdb</PackagePath>
-      <Modified>2013-05-29T20:29:03.005</Modified>
+      <Modified>2013-05-30T22:08:18.602</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dan\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\References\commonconfiguration\neutral\Bing.Maps.winmd">
       <PackagePath>Bing.Maps.winmd</PackagePath>
@@ -370,11 +370,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="c:\pandc\code\greenp_map\GreenP\GreenP\bin\x86\Debug\MainPage.xaml">
       <PackagePath>MainPage.xaml</PackagePath>
-      <Modified>2013-05-29T19:21:15.290</Modified>
+      <Modified>2013-05-30T21:55:38.251</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="c:\pandc\code\greenp_map\GreenP\GreenP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2013-05-29T19:35:38.919</Modified>
+      <Modified>2013-05-30T21:37:28.706</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
