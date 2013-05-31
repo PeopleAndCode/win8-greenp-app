@@ -22,8 +22,8 @@
   </Resources>
   <Applications>
     <Application Id="App" Executable="GreenP.exe" EntryPoint="GreenP.App">
-      <VisualElements DisplayName="GreenP" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="GreenP" ForegroundText="light" BackgroundColor="#464646">
-        <DefaultTile ShowName="allLogos" />
+      <VisualElements DisplayName="GreenP Parking Interactive Map" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="This app helps you find a GreenP parking lot in Toronto near you!" ForegroundText="light" BackgroundColor="#007700">
+        <DefaultTile ShowName="allLogos" ShortName="GreenP Map" />
         <SplashScreen Image="Assets\SplashScreen.png" />
       </VisualElements>
     </Application>
