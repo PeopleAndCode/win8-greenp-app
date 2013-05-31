@@ -139,12 +139,9 @@ namespace GreenP
             return ret;
         }
 
-        private async void getPosition()
+        private void getPosition()
         {
-
-            Geolocator geo = new Geolocator();
-            Geoposition position = await geo.GetGeopositionAsync();
-            Location loc = new Location(position.Coordinate.Latitude, position.Coordinate.Longitude);
+            Location loc = new Location(43.70, -79.41133);
             myMap.SetView(loc, 13);
         }
 
