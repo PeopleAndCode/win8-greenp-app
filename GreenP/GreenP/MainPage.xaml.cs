@@ -15,6 +15,7 @@ using Windows.UI.Xaml.Navigation;
 using Bing.Maps;
 using Windows.Data.Json;
 using Windows.Devices.Geolocation;
+using Windows.UI;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -28,6 +29,8 @@ namespace GreenP
 
         Dictionary<Pushpin, JsonObject> data;
         Dictionary<ListBoxItem, Pushpin> listData;
+        Dictionary<Pushpin, ListBoxItem> inv_listData;
+        Pushpin lastPin = null;
 
         public MainPage()
         {
@@ -39,6 +42,7 @@ namespace GreenP
             getPosition();
 
             listData = new Dictionary<ListBoxItem, Pushpin>();
+            inv_listData = new Dictionary<Pushpin, ListBoxItem>();
 
             foreach (Pushpin point in data.Keys)
             {
@@ -47,6 +51,7 @@ namespace GreenP
                 item.Tapped += new TappedEventHandler(listTapped);
                 item.Content = data[point]["address"].GetString();
                 listData[item] = point;
+                inv_listData[point] = item;
                 listBox.Items.Add(item);
                 point.Tapped += new TappedEventHandler(pinEvent);
                 double lat = 0;
@@ -73,6 +78,15 @@ namespace GreenP
         private void pinEvent(object sender, TappedRoutedEventArgs e)
         {
             Pushpin p = sender as Pushpin;
+            listBox.SelectedItem = inv_listData[p];
+            listBox.ScrollIntoView(inv_listData[p]);
+            p.Background = new SolidColorBrush(Colors.LightGreen);
+            if (lastPin != null)
+            {
+                lastPin.Background = new SolidColorBrush(Colors.Blue);
+            }
+            lastPin = p;
+
             myMap.SetView(MapLayer.GetPosition(p), 14);
             myMap.SetView(MapLayer.GetPosition(p), 16);
             infoBlock.Text = infoString(p);

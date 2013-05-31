@@ -42,7 +42,7 @@
 
                 </ScrollViewer>
         </FlipView>
-        <ListBox Grid.Column="1" Grid.Row="1" x:Name="listBox" />
+        <ListBox Grid.Column="1" Margin="1,0,1,1" Grid.Row="1" x:Name="listBox" />
     </Grid>
 </Page>
 
