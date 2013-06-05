@@ -122,81 +122,79 @@ namespace GreenP.GreenP_XamlTypeInfo
 
         private object Activate_0_LayoutAwarePage() { return new global::GreenP.Common.LayoutAwarePage(); }
 
-        private object Activate_1_BasicPage1() { return new global::GreenP.BasicPage1(); }
+        private object Activate_1_Map() { return new global::Bing.Maps.Map(); }
 
-        private object Activate_2_Map() { return new global::Bing.Maps.Map(); }
+        private object Activate_2_MapUIElementCollection() { return new global::Bing.Maps.MapUIElementCollection(); }
 
-        private object Activate_3_MapUIElementCollection() { return new global::Bing.Maps.MapUIElementCollection(); }
+        private object Activate_7_MapTileLayerCollection() { return new global::Bing.Maps.MapTileLayerCollection(); }
 
-        private object Activate_8_MapTileLayerCollection() { return new global::Bing.Maps.MapTileLayerCollection(); }
+        private object Activate_8_MapTileLayer() { return new global::Bing.Maps.MapTileLayer(); }
 
-        private object Activate_9_MapTileLayer() { return new global::Bing.Maps.MapTileLayer(); }
+        private object Activate_9_LocationRectCollection() { return new global::Bing.Maps.LocationRectCollection(); }
 
-        private object Activate_10_LocationRectCollection() { return new global::Bing.Maps.LocationRectCollection(); }
+        private object Activate_10_LocationRect() { return new global::Bing.Maps.LocationRect(); }
 
-        private object Activate_11_LocationRect() { return new global::Bing.Maps.LocationRect(); }
+        private object Activate_11_Location() { return new global::Bing.Maps.Location(); }
 
-        private object Activate_12_Location() { return new global::Bing.Maps.Location(); }
+        private object Activate_12_MapShapeLayerCollection() { return new global::Bing.Maps.MapShapeLayerCollection(); }
 
-        private object Activate_13_MapShapeLayerCollection() { return new global::Bing.Maps.MapShapeLayerCollection(); }
+        private object Activate_13_MapShapeLayer() { return new global::Bing.Maps.MapShapeLayer(); }
 
-        private object Activate_14_MapShapeLayer() { return new global::Bing.Maps.MapShapeLayer(); }
+        private object Activate_14_MapShapeCollection() { return new global::Bing.Maps.MapShapeCollection(); }
 
-        private object Activate_15_MapShapeCollection() { return new global::Bing.Maps.MapShapeCollection(); }
+        private object Activate_19_MainPage() { return new global::GreenP.MainPage(); }
 
-        private object Activate_20_MainPage() { return new global::GreenP.MainPage(); }
+        private object Activate_20_Pushpin() { return new global::Bing.Maps.Pushpin(); }
 
-        private object Activate_21_Pushpin() { return new global::Bing.Maps.Pushpin(); }
+        private object Activate_21_MapItemsControl() { return new global::Bing.Maps.MapItemsControl(); }
 
-        private object Activate_22_MapItemsControl() { return new global::Bing.Maps.MapItemsControl(); }
+        private object Activate_22_VenueFloorDataSource() { return new global::Bing.Maps.VenueMaps.VenueFloorDataSource(); }
 
-        private object Activate_23_VenueFloorDataSource() { return new global::Bing.Maps.VenueMaps.VenueFloorDataSource(); }
+        private object Activate_27_LocationCollection() { return new global::Bing.Maps.LocationCollection(); }
 
-        private object Activate_28_LocationCollection() { return new global::Bing.Maps.LocationCollection(); }
-
-        private void VectorAdd_3_MapUIElementCollection(object instance, object item)
+        private void VectorAdd_2_MapUIElementCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Windows.UI.Xaml.UIElement>)instance;
             var newItem = (global::Windows.UI.Xaml.UIElement)item;
             collection.Add(newItem);
         }
 
-        private void VectorAdd_8_MapTileLayerCollection(object instance, object item)
+        private void VectorAdd_7_MapTileLayerCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Bing.Maps.MapTileLayer>)instance;
             var newItem = (global::Bing.Maps.MapTileLayer)item;
             collection.Add(newItem);
         }
 
-        private void VectorAdd_10_LocationRectCollection(object instance, object item)
+        private void VectorAdd_9_LocationRectCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Bing.Maps.LocationRect>)instance;
             var newItem = (global::Bing.Maps.LocationRect)item;
             collection.Add(newItem);
         }
 
-        private void VectorAdd_13_MapShapeLayerCollection(object instance, object item)
+        private void VectorAdd_12_MapShapeLayerCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Bing.Maps.MapShapeLayer>)instance;
             var newItem = (global::Bing.Maps.MapShapeLayer)item;
             collection.Add(newItem);
         }
 
-        private void VectorAdd_15_MapShapeCollection(object instance, object item)
+        private void VectorAdd_14_MapShapeCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Bing.Maps.MapShape>)instance;
             var newItem = (global::Bing.Maps.MapShape)item;
             collection.Add(newItem);
         }
 
-        private void VectorAdd_24_IObservableVector(object instance, object item)
+        private void VectorAdd_23_IObservableVector(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::System.Object>)instance;
             var newItem = (global::System.Object)item;
             collection.Add(newItem);
         }
 
-        private void VectorAdd_28_LocationCollection(object instance, object item)
+        private void VectorAdd_27_LocationCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Bing.Maps.Location>)instance;
             var newItem = (global::Bing.Maps.Location)item;
@@ -261,15 +259,9 @@ namespace GreenP.GreenP_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case "GreenP.BasicPage1":
-                userType = new global::GreenP.GreenP_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::GreenP.BasicPage1), GetXamlTypeByName("GreenP.Common.LayoutAwarePage"));
-                userType.Activator = Activate_1_BasicPage1;
-                xamlType = userType;
-                break;
-
             case "Bing.Maps.Map":
                 userType = new global::GreenP.GreenP_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.Map), GetXamlTypeByName("Windows.UI.Xaml.Controls.Control"));
-                userType.Activator = Activate_2_Map;
+                userType.Activator = Activate_1_Map;
                 userType.SetContentPropertyName("Bing.Maps.Map.Children");
                 userType.AddMemberName("Children");
                 userType.AddMemberName("Credentials");
@@ -342,8 +334,8 @@ namespace GreenP.GreenP_XamlTypeInfo
 
             case "Bing.Maps.MapUIElementCollection":
                 userType = new global::GreenP.GreenP_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.MapUIElementCollection), GetXamlTypeByName("Object"));
-                userType.Activator = Activate_3_MapUIElementCollection;
-                userType.CollectionAdd = VectorAdd_3_MapUIElementCollection;
+                userType.Activator = Activate_2_MapUIElementCollection;
+                userType.CollectionAdd = VectorAdd_2_MapUIElementCollection;
                 xamlType = userType;
                 break;
 
@@ -373,14 +365,14 @@ namespace GreenP.GreenP_XamlTypeInfo
 
             case "Bing.Maps.MapTileLayerCollection":
                 userType = new global::GreenP.GreenP_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.MapTileLayerCollection), GetXamlTypeByName("Object"));
-                userType.Activator = Activate_8_MapTileLayerCollection;
-                userType.CollectionAdd = VectorAdd_8_MapTileLayerCollection;
+                userType.Activator = Activate_7_MapTileLayerCollection;
+                userType.CollectionAdd = VectorAdd_7_MapTileLayerCollection;
                 xamlType = userType;
                 break;
 
             case "Bing.Maps.MapTileLayer":
                 userType = new global::GreenP.GreenP_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.MapTileLayer), GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
-                userType.Activator = Activate_9_MapTileLayer;
+                userType.Activator = Activate_8_MapTileLayer;
                 userType.AddMemberName("Bounds");
                 userType.AddMemberName("FillMissingTiles");
                 AddToMapOfTypeToStandardName(typeof(global::System.Boolean),
@@ -408,14 +400,14 @@ namespace GreenP.GreenP_XamlTypeInfo
 
             case "Bing.Maps.LocationRectCollection":
                 userType = new global::GreenP.GreenP_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.LocationRectCollection), GetXamlTypeByName("Object"));
-                userType.Activator = Activate_10_LocationRectCollection;
-                userType.CollectionAdd = VectorAdd_10_LocationRectCollection;
+                userType.Activator = Activate_9_LocationRectCollection;
+                userType.CollectionAdd = VectorAdd_9_LocationRectCollection;
                 xamlType = userType;
                 break;
 
             case "Bing.Maps.LocationRect":
                 userType = new global::GreenP.GreenP_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.LocationRect), GetXamlTypeByName("Object"));
-                userType.Activator = Activate_11_LocationRect;
+                userType.Activator = Activate_10_LocationRect;
                 userType.AddMemberName("West");
                 AddToMapOfTypeToStandardName(typeof(global::System.Double),
                                                    "Double");
@@ -442,7 +434,7 @@ namespace GreenP.GreenP_XamlTypeInfo
 
             case "Bing.Maps.Location":
                 userType = new global::GreenP.GreenP_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.Location), GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
-                userType.Activator = Activate_12_Location;
+                userType.Activator = Activate_11_Location;
                 userType.AddMemberName("Longitude");
                 AddToMapOfTypeToStandardName(typeof(global::System.Double),
                                                    "Double");
@@ -454,14 +446,14 @@ namespace GreenP.GreenP_XamlTypeInfo
 
             case "Bing.Maps.MapShapeLayerCollection":
                 userType = new global::GreenP.GreenP_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.MapShapeLayerCollection), GetXamlTypeByName("Object"));
-                userType.Activator = Activate_13_MapShapeLayerCollection;
-                userType.CollectionAdd = VectorAdd_13_MapShapeLayerCollection;
+                userType.Activator = Activate_12_MapShapeLayerCollection;
+                userType.CollectionAdd = VectorAdd_12_MapShapeLayerCollection;
                 xamlType = userType;
                 break;
 
             case "Bing.Maps.MapShapeLayer":
                 userType = new global::GreenP.GreenP_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.MapShapeLayer), GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
-                userType.Activator = Activate_14_MapShapeLayer;
+                userType.Activator = Activate_13_MapShapeLayer;
                 userType.AddMemberName("Visible");
                 AddToMapOfTypeToStandardName(typeof(global::System.Boolean),
                                                    "Boolean");
@@ -474,8 +466,8 @@ namespace GreenP.GreenP_XamlTypeInfo
 
             case "Bing.Maps.MapShapeCollection":
                 userType = new global::GreenP.GreenP_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.MapShapeCollection), GetXamlTypeByName("Object"));
-                userType.Activator = Activate_15_MapShapeCollection;
-                userType.CollectionAdd = VectorAdd_15_MapShapeCollection;
+                userType.Activator = Activate_14_MapShapeCollection;
+                userType.CollectionAdd = VectorAdd_14_MapShapeCollection;
                 xamlType = userType;
                 break;
 
@@ -516,13 +508,13 @@ namespace GreenP.GreenP_XamlTypeInfo
 
             case "GreenP.MainPage":
                 userType = new global::GreenP.GreenP_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::GreenP.MainPage), GetXamlTypeByName("GreenP.Common.LayoutAwarePage"));
-                userType.Activator = Activate_20_MainPage;
+                userType.Activator = Activate_19_MainPage;
                 xamlType = userType;
                 break;
 
             case "Bing.Maps.Pushpin":
                 userType = new global::GreenP.GreenP_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.Pushpin), GetXamlTypeByName("Windows.UI.Xaml.Controls.Control"));
-                userType.Activator = Activate_21_Pushpin;
+                userType.Activator = Activate_20_Pushpin;
                 userType.AddMemberName("Text");
                 AddToMapOfTypeToStandardName(typeof(global::System.String),
                                                    "String");
@@ -532,14 +524,14 @@ namespace GreenP.GreenP_XamlTypeInfo
 
             case "Bing.Maps.MapItemsControl":
                 userType = new global::GreenP.GreenP_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.MapItemsControl), GetXamlTypeByName("Windows.UI.Xaml.Controls.ItemsControl"));
-                userType.Activator = Activate_22_MapItemsControl;
+                userType.Activator = Activate_21_MapItemsControl;
                 userType.SetIsBindable();
                 xamlType = userType;
                 break;
 
             case "Bing.Maps.VenueMaps.VenueFloorDataSource":
                 userType = new global::GreenP.GreenP_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.VenueMaps.VenueFloorDataSource), GetXamlTypeByName("Object"));
-                userType.Activator = Activate_23_VenueFloorDataSource;
+                userType.Activator = Activate_22_VenueFloorDataSource;
                 userType.AddMemberName("Items");
                 AddToMapOfTypeToStandardName(typeof(global::Windows.Foundation.Collections.IObservableVector<global::System.Object>),
                                                    "Windows.Foundation.Collections.IObservableVector<Object>");
@@ -554,7 +546,7 @@ namespace GreenP.GreenP_XamlTypeInfo
                 userType = new global::GreenP.GreenP_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Windows.Foundation.Collections.IObservableVector<global::System.Object>), null);
                 AddToMapOfTypeToStandardName(typeof(global::Windows.Foundation.Collections.IObservableVector<global::System.Object>),
                                                    "Windows.Foundation.Collections.IObservableVector<Object>");
-                userType.CollectionAdd = VectorAdd_24_IObservableVector;
+                userType.CollectionAdd = VectorAdd_23_IObservableVector;
                 xamlType = userType;
                 break;
 
@@ -645,8 +637,8 @@ namespace GreenP.GreenP_XamlTypeInfo
 
             case "Bing.Maps.LocationCollection":
                 userType = new global::GreenP.GreenP_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.LocationCollection), GetXamlTypeByName("Object"));
-                userType.Activator = Activate_28_LocationCollection;
-                userType.CollectionAdd = VectorAdd_28_LocationCollection;
+                userType.Activator = Activate_27_LocationCollection;
+                userType.CollectionAdd = VectorAdd_27_LocationCollection;
                 xamlType = userType;
                 break;
 
@@ -679,6 +671,8 @@ namespace GreenP.GreenP_XamlTypeInfo
                     _otherProviders = new global::System.Collections.Generic.List<global::Windows.UI.Xaml.Markup.IXamlMetadataProvider>();
                     global::Windows.UI.Xaml.Markup.IXamlMetadataProvider provider;
                     provider = new global::Bing.Maps.Bing_Maps_XamlTypeInfo.XamlMetaDataProvider() as global::Windows.UI.Xaml.Markup.IXamlMetadataProvider;
+                    _otherProviders.Add(provider); 
+                    provider = new global::WinRTXamlToolkit.WinRTXamlToolkit_XamlTypeInfo.XamlMetaDataProvider() as global::Windows.UI.Xaml.Markup.IXamlMetadataProvider;
                     _otherProviders.Add(provider); 
                 }
                 return _otherProviders;

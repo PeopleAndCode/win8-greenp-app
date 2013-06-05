@@ -17,6 +17,7 @@ using Windows.Data.Json;
 using Windows.Devices.Geolocation;
 using Windows.UI;
 using GreenP.Common;
+using Windows.UI.ViewManagement;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -36,7 +37,7 @@ namespace GreenP
         public MainPage()
         {
             this.InitializeComponent();
-
+            Window.Current.SizeChanged += changeSize;
             try{
             data = Util.doInit();
 
@@ -67,6 +68,24 @@ namespace GreenP
             {
                 failGracefully();
             }
+        }
+
+        private void changeSize(object sender, Windows.UI.Core.WindowSizeChangedEventArgs e)
+        {
+             ApplicationViewState currentViewState = ApplicationView.Value;
+
+             if (currentViewState == ApplicationViewState.Snapped)
+             {
+                 //mapCol.Width = new GridLength(0,GridUnitType.Star);
+                 myMap.Visibility = Visibility.Collapsed;
+                 listCol.Width = new GridLength(318);
+             }
+             else {
+                 //mapCol.Width = new GridLength(1, GridUnitType.Star);
+                 myMap.Visibility = Visibility.Visible;
+                 listCol.Width = new GridLength(320);
+             };
+
         }
 
         private async void failGracefully()
