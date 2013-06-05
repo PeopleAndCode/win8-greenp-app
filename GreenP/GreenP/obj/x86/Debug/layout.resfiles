@@ -3,5 +3,7 @@ Assets\SmallLogo.png
 Assets\SplashScreen.png
 Assets\StoreLogo.png
 App.xaml
+BasicPage1.xaml
 Common\StandardStyles.xaml
 MainPage.xaml
+Common\ReadMe.txt

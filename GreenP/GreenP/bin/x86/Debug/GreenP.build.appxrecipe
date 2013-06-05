@@ -269,8 +269,14 @@
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dan\Documents\GitHub\win8-greenp-app\GreenP\GreenP\Common\ReadMe.txt">
+      <PackagePath>Common\ReadMe.txt</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dan\Documents\GitHub\win8-greenp-app\GreenP\GreenP\bin\x86\Debug\App.xaml">
       <PackagePath>App.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dan\Documents\GitHub\win8-greenp-app\GreenP\GreenP\bin\x86\Debug\BasicPage1.xaml">
+      <PackagePath>BasicPage1.xaml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dan\Documents\GitHub\win8-greenp-app\GreenP\GreenP\bin\x86\Debug\Common\StandardStyles.xaml">
       <PackagePath>Common\StandardStyles.xaml</PackagePath>
