@@ -18,6 +18,7 @@ using Windows.Devices.Geolocation;
 using Windows.UI;
 using GreenP.Common;
 using Windows.UI.ViewManagement;
+using Windows.UI.ApplicationSettings;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -34,8 +35,20 @@ namespace GreenP
         Dictionary<Pushpin, ListBoxItem> inv_listData;
         Pushpin lastPin = null;
 
+        private void privacyCharm(SettingsPane sender, SettingsPaneCommandsRequestedEventArgs args)
+        {
+            var cmd = new SettingsCommand("privacy", "Privacy Policy", new Windows.UI.Popups.UICommandInvokedHandler(x =>
+            {
+                Windows.System.Launcher.LaunchUriAsync(new Uri("http://peopleandcode.com/toronto-green-p-parking-windows-8-store-app-privacy-policy/"));
+            }));
+
+            args.Request.ApplicationCommands.Add(cmd);
+        }
+
         public MainPage()
         {
+            SettingsPane.GetForCurrentView().CommandsRequested += privacyCharm;
+
             this.InitializeComponent();
             Window.Current.SizeChanged += changeSize;
             try{

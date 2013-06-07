@@ -5,7 +5,7 @@
     <WindowsUser>Dan</WindowsUser>
     <SolutionConfiguration>Debug|x86</SolutionConfiguration>
     <PackageArchitecture>x86</PackageArchitecture>
-    <RegisteredManifestChecksum>6BBC42499DAB686D1379B14D78D2A54FD8BB71B74B5AF92753A09A9456B85662</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>31585A76D1BCA97DF7107532F74980BD081A8D33BBFF50FD6650A5A43E16FC0C</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>5e306a81-f074-4d70-8d92-bf69e7331a7e_1.0.0.0_x86__m2mhzkw71ghyc</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>5e306a81-f074-4d70-8d92-bf69e7331a7e_m2mhzkw71ghyc!App</RegisteredUserModeAppID>
     <RegisteredPackageID>5e306a81-f074-4d70-8d92-bf69e7331a7e</RegisteredPackageID>
@@ -16,17 +16,17 @@
     <AppXManifest Include="C:\Users\Dan\Documents\GitHub\win8-greenp-app\GreenP\GreenP\bin\x86\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-06-05T20:48:00.048</Modified>
+      <Modified>2013-06-07T17:16:56.969</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Dan\Documents\GitHub\win8-greenp-app\GreenP\GreenP\bin\x86\Debug\GreenP.exe">
       <PackagePath>GreenP.exe</PackagePath>
-      <Modified>2013-06-05T21:12:22.362</Modified>
+      <Modified>2013-06-07T17:16:56.096</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dan\Documents\GitHub\win8-greenp-app\GreenP\GreenP\bin\x86\Debug\GreenP.pdb">
       <PackagePath>GreenP.pdb</PackagePath>
-      <Modified>2013-06-05T21:12:22.341</Modified>
+      <Modified>2013-06-07T17:16:56.076</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dan\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\References\commonconfiguration\neutral\Bing.Maps.winmd">
       <PackagePath>Bing.Maps.winmd</PackagePath>
@@ -478,7 +478,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dan\Documents\GitHub\win8-greenp-app\GreenP\GreenP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2013-06-05T20:47:59.348</Modified>
+      <Modified>2013-06-07T17:16:56.395</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
