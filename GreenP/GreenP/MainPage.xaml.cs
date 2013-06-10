@@ -37,9 +37,9 @@ namespace GreenP
 
         private void privacyCharm(SettingsPane sender, SettingsPaneCommandsRequestedEventArgs args)
         {
-            var cmd = new SettingsCommand("privacy", "Privacy Policy", new Windows.UI.Popups.UICommandInvokedHandler(x =>
+            var cmd = new SettingsCommand("privacy", "Privacy Policy", new Windows.UI.Popups.UICommandInvokedHandler(async x =>
             {
-                Windows.System.Launcher.LaunchUriAsync(new Uri("http://peopleandcode.com/toronto-green-p-parking-windows-8-store-app-privacy-policy/"));
+                await Windows.System.Launcher.LaunchUriAsync(new Uri("http://peopleandcode.com/toronto-green-p-parking-windows-8-store-app-privacy-policy/"));
             }));
 
             args.Request.ApplicationCommands.Add(cmd);

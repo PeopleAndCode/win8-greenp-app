@@ -22,11 +22,11 @@
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Dan\Documents\GitHub\win8-greenp-app\GreenP\GreenP\bin\x86\Debug\GreenP.exe">
       <PackagePath>GreenP.exe</PackagePath>
-      <Modified>2013-06-07T17:16:56.096</Modified>
+      <Modified>2013-06-10T21:42:00.373</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dan\Documents\GitHub\win8-greenp-app\GreenP\GreenP\bin\x86\Debug\GreenP.pdb">
       <PackagePath>GreenP.pdb</PackagePath>
-      <Modified>2013-06-07T17:16:56.076</Modified>
+      <Modified>2013-06-10T21:42:00.357</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dan\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\References\commonconfiguration\neutral\Bing.Maps.winmd">
       <PackagePath>Bing.Maps.winmd</PackagePath>
